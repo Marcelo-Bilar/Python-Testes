@@ -1,3 +1,4 @@
+print("Olá, Mundo! \n")
 def calcular(n1, n2, o):
     if o == '+':
         return n1 + n2
