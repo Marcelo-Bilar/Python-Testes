@@ -1,8 +1,8 @@
 '''
     - Escrever um programa que recebe alguns produtos como argumento, -- OK
-    - Validar se esses produtos estáo na lista de itens disponiveis do mercado,
-    - Caso esteja avisar o usuário quais produtos tem e quais não tem,
-    - E por ultimo exibir a lista de produtos disponiveis ordenados por ordem alfabética
+    - Validar se esses produtos estáo na lista de itens disponiveis do mercado -- OK
+    - Caso esteja avisar o usuário quais produtos tem e quais não tem -- OK
+    - E por ultimo exibir a lista de produtos disponiveis ordenados por ordem alfabética -- OK
 '''
 
 if __name__ == '__main__':
