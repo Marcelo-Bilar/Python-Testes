@@ -1,0 +1,28 @@
+print('-='*30)
+print('CAIXA')
+print('-='*30)
+preco = float(input('DIGITE O VALOR DO PRODUTO: '))
+print('-='*30)
+print('PARA DINHEIRO OU CHEQUE À VISTA DIGITE 1')
+print('PARA CARTÃO EM 1X DIGITE 2')
+print('PARA CARTÃO EM 2X DIGITE 3')
+print('PARA CARTÃO EM 3X DIGITE 4')
+print('-='*30)
+metodo = int(input('DIGITE SUA OPÇÃO: '))
+print('-='*30)
+if(metodo == 1):
+    preconovo = preco - (preco*0.1)
+    print(f'O PREÇO FINAL DO PRODUTO É {preconovo:.2f} REAIS')
+    print('-='*30)
+elif(metodo ==2):
+    preconovo = preco - (preco*0.05)
+    print(f'O PREÇO FINAL DO PRODUTO É {preconovo:.2f} REAIS')
+    print('-='*30)
+elif(metodo ==2):
+    print(f'O PREÇO FINAL DO PRODUTO É {preco:.2f} REAIS')
+    print('-='*30)
+else:
+    preconovo = preco + (preco*0.20)
+    print(f'O PREÇO FINAL DO PRODUTO É {preconovo:.2f} REAIS')
+    print('-='*30)
+input("PRESSIONE ENTER PARA FINALIZAR ;)")
